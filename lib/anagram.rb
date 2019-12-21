@@ -6,5 +6,7 @@ class Anagram
     @@match = match
   end
     
-  d  
+  def match
+    @@match
+  end
 end 
