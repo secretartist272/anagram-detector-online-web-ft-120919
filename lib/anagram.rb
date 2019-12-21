@@ -1,8 +1,8 @@
 class Anagram 
   attr_accessor :match 
-  
+  match = []
   def initialize(match)
     @@match = match
-    match = []
+    
   end
 end 
