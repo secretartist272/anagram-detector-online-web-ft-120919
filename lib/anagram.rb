@@ -3,5 +3,6 @@ class Anagram
   
   def initialize(match)
     @@match = match
+    match << item
   end
 end 
